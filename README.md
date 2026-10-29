@@ -17,7 +17,9 @@ backend, OAuth callback endpoint, account data, OAuth client files or tokens.
 Google branding URLs are the homepage, `/privacy/` and `/terms/` on the above
 origin. The proposed authorized domain is `simon5530.github.io`, subject to actual
 Google acceptance. Search Console ownership must be proved using Google's own
-verification file or meta tag; never fabricate a verification token.
+verification file or meta tag; never fabricate a verification token. The homepage
+now contains the public meta tag issued by Google Search Console. Keep it in
+place after verification; it is a public ownership proof, not an OAuth secret.
 
 Publishing the site does not publish the OAuth application, verify its brand,
 verify sensitive scopes, or prove that refresh tokens are free of Testing expiry.
