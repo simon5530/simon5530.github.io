@@ -15,11 +15,10 @@ backend, OAuth callback endpoint, account data, OAuth client files or tokens.
 - `verify_site.py`: dependency-free local checks; run `python3 verify_site.py`.
 
 Google branding URLs are the homepage, `/privacy/` and `/terms/` on the above
-origin. The proposed authorized domain is `simon5530.github.io`, subject to actual
-Google acceptance. Search Console ownership must be proved using Google's own
-verification file or meta tag; never fabricate a verification token. The homepage
-now contains the public meta tag issued by Google Search Console. Keep it in
-place after verification; it is a public ownership proof, not an OAuth secret.
+origin. Google OAuth branding has accepted and saved the authorized domain
+`simon5530.github.io`. Google Search Console has verified this site's ownership
+using its issued HTML meta tag. Keep that public meta tag in the homepage after
+verification; it is an ownership proof, not an OAuth secret.
 
 Publishing the site does not publish the OAuth application, verify its brand,
 verify sensitive scopes, or prove that refresh tokens are free of Testing expiry.
